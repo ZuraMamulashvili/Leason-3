@@ -1,6 +1,17 @@
+.logo{ color: rgb(255, 255, 255); background-color: rgba(255, 99, 71, 0.938);
+    
+}
+img{
+   
+    height: 100px; width: 100px;
+}
+
+.list1
+
 img {
     border: 5px solid rgba(238, 37, 54, 0.144);
     border-radius: 25px;
+
 
 width: 300px;
 height: 300px;
@@ -19,8 +30,7 @@ a{
 margin-left: 88px;
 }
 h1{
-margin-left: 500px;
-
+margin-top: 20px;
 }
 
 h4{
@@ -31,6 +41,13 @@ h3{
 color: rgb(78, 114, 114);
 
 }
+
+td.listc3 {
+    color: red; font-weight: bolder;
+}
+
+
+
 
 table{
     border-collapse: collapse;
@@ -60,3 +77,16 @@ table{
     width: 100%;
 }
 
+
+.div1{
+    color: red;background-color: rgb(36, 4, 4);
+}
+
+
+.bg-wite{
+    background-color: rgb(49, 5, 5);
+}
+
+.div2{
+    color: green;background-color: rgb(221, 170, 170);
+}
