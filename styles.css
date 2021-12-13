@@ -1,6 +1,13 @@
-.logo{ color: rgb(255, 255, 255); background-color: rgba(255, 99, 71, 0.938);
-    
-}
+.logo{ color: rgb(255, 255, 255);
+       background-color: rgba(255, 99, 71, 0.938);
+       font-weight: bold;
+       position: relative;
+       animation: mymove 50s;
+    }
+ @keyframes mymove {
+        from {left: 0px;}
+        to {left: 1000px;}
+      }   
 img{
    
     height: 100px; width: 100px;
@@ -24,7 +31,7 @@ a {
 a {text-decoration: none;
 color: darkblue;
 padding: 11px 10px; margin-right: 15px; 
-border: 2px solid red 
+border: 2px solid red;
 }
 a{
 margin-left: 88px;
